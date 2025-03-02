@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeFire Paid Push</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to FreeFire Paid Push Service</h1>
+    </header>
+
+    <section class="services">
+        <h2>Choose Your Rank Push Service</h2>
+        <form id="rank-push-form">
+            <label for="service">Select Service:</label>
+            <select id="service" name="service">
+                <option value="cs-heroic">CS Heroic Rank Push - ?250</option>
+                <option value="br-heroic">BR Heroic Rank Push - ?250</option>
+                <option value="cs-master">CS Master Rank Push - ?350</option>
+                <option value="br-master">BR Master Rank Push - ?350</option>
+                <option value="both-master">Both (BR & CS) Master Rank Push - ?800</option>
+                <option value="cs-grandmaster">CS Grandmaster Rank Push - ?1000</option>
+                <option value="br-grandmaster">BR Grandmaster Rank Push - ?1000</option>
+            </select>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="freefire-id">FreeFire ID:</label>
+            <input type="text" id="freefire-id" name="freefire-id" required>
+
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the <a href="#">Terms and Conditions</a></label>
+
+            <button type="submit">Submit Request</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>For any issues, contact <a href="mailto:kunalishere17@gmail.com">kunalishere17@gmail.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
